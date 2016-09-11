@@ -1,0 +1,135 @@
+body, h1, h2,h3,h4,h5,h6,p,div,ul,li{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Garamond, Tahoma, Sans-Serif;
+	background-color: #dec87a;
+}
+#divWrapper{
+	width: 700px;
+	margin: 30px auto;
+}
+#divHeader{
+	width: 700px;
+	background-image: url(http://splashmagazine.com/wp-content/uploads/2013/02/Black-Background-Wood-black-wallpaper.jpg);
+	text-align: center;
+	height: 220px;
+	border: 0px solid brown;
+}
+#divHeader img{
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
+#divLine{
+	width: 700px;
+	background-color: brown;
+	height: 1px;
+}
+#divLinks{
+	width: 700px;
+	background: #af9435;	
+}
+#divNav{
+	width: 384px;
+	background-color: #af9435;
+	height: 36px;
+	margin: 0 auto;
+}
+#divNav ul{
+	list-style: none;
+}
+#divNav ul li{
+	float: left;
+}
+#divNav ul li a{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	background: #d0bc75;
+	width: 80px;
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #56242e;
+	text-align: center;
+	text-decoration: none;
+	margin: 7px;
+
+	/*border radius*/
+	border-radius: 5px;
+	border: 1px solid brown;
+
+	/*gradient*/
+	background: -moz-linear-gradient (top, #000, #666);
+	background: -webkit-gradient (linear, left top, left bottom, from (#000)to (#666))
+}
+#divNav ul li a:hover {
+    background: brown;
+    background: -moz-linear-gradient (top, #000, #666);
+	background: -webkit-gradient (linear, left top, left bottom, from (#000)to (#666))
+}
+#divNav ul li a.current, #divNav ul li a.current:hover{
+	background: :brown;
+	background: -moz-linear-gradient (top, #000, #666);
+	background: -webkit-gradient (linear, left top, left bottom, from (#000)to (#666))
+	color: black;
+	cursor: default;
+}
+#divAbout{
+	width: 700px;
+	background-color: #af9435;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#divContent{
+	width: 430px;
+	margin: 0 auto;
+	background: #dec87a;
+	border: 1px solid brown;
+
+	/*gradient*/
+	background: -moz-linear-gradient (top, #666, #333, #222);
+	background: -webkit-gradient (linear, left top, left bottom, from (#666)to (#222), color-stop(0.5, #333))
+	
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+
+	/*shadow*/
+	box-shadow: 6px 6px 1px black;
+	-moz-box-shadow: 6px 6px 1px black;
+	-webkit-box-shadow: 6px 6px 1px black;
+}
+#divContent img{
+	float: left;
+	border: 1px solid brown;
+	padding: 16px;
+	margin: 0.7em;
+	/*gradient*/
+	background: -moz-linear-gradient (top, #000, #666);
+	background: -webkit-gradient (linear, left top, left bottom, from (#000)to (#666))
+	/*border radius*/
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+#divContent h5{
+	color: #56242e;
+	padding: 0.8em 0 0 0;
+	font-size: 1em;
+}
+#divContent p{
+	font-size: 0.8em;
+	color: #56242e;
+	padding: 0.8em;
+	line-height: 1.2em;
+}
+#divFooter{
+	background: brown;
+	height: 10px;
+	width: 700px;
+	border-bottom: 2px solid brown;
+}
+
+
+
