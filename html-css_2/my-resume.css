@@ -8,13 +8,13 @@ body{
 }
 #divWrapper{
 	width: 700px;
-	margin: 20px auto;
+	margin: 30px auto;
 }
 #divHeader{
 	width: 700px;
 	background-image: url(../Pictures/Logo/flatgold.jpg);
 	text-align: center;
-	height: 150px;
+	height: 220px;
 	border: 0px solid brown;
 }
 #divHeader img{
@@ -62,7 +62,6 @@ body{
 	/*gradient*/
 	background: -moz-linear-gradient (top, #000, #666);
 	background: -webkit-gradient (linear, left top, left bottom, from (#000)to (#666))
-	background: -webkit-linear-gradient (red, yellow);
 }
 #divNav ul li a:hover {
     background: brown;
