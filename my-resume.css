@@ -1,0 +1,151 @@
+body, h1, h2,h3,h4,h5,h6,p,div,ul,li{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Garamond, Tahoma, Sans-Serif;
+	background-color: #7b7a76;
+}
+#divWrapper{
+	width: 700px;
+	margin: 30px auto;
+}
+#divHeader{
+	width: 700px;
+	background-image: url(http://splashmagazine.com/wp-content/uploads/2013/02/Black-Background-Wood-black-wallpaper.jpg);
+	text-align: center;
+	height: 150px;
+	border: 0px solid brown;
+}
+#divHeader img{
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
+#divLine{
+	width: 700px;
+	background-color: #f3ecec;
+	height: 2px;
+}
+#divLinks{
+	width: 700px;
+	background: #4e4b3e;	
+}
+#divNav{
+	width: 384px;
+	background: #4e4b3e;
+	height: 36px;
+	margin: 0 auto;
+}
+#divNav ul{
+	list-style: none;
+}
+#divNav ul li{
+	float: left;
+}
+#divNav ul li a{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	background: #d2cec0;
+	width: 80px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #3a3032;
+	text-align: center;
+	text-decoration: none;
+	margin: 7px;
+
+	/*border radius*/
+	border-radius: 5px;
+	border: 1px groove #7b7a76;
+
+	background: grey; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(white, grey); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(white, grey); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white, grey); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(white, grey); /* Standard syntax (must be last) */
+}
+#divNav ul li a:hover {
+    
+    background: grey; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(white, grey); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(white, grey); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white, grey); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(white, grey); /* Standard syntax (must be last) */
+}
+#divNav ul li a.current:hover{
+
+	background: grey; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(black, grey); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(black, grey); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(black, grey); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(black, grey); /* Standard syntax (must be last) */
+
+	color: whitesmoke;
+	cursor: default;
+}
+#divAbout{
+	width: 700px;
+	background: #4e4b3e;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#divContent{
+	width: 430px;
+	margin: 0 auto;
+	background: #d2cec0;
+	border: 3px inset #f3ecec;
+
+	background: grey; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(black, grey); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(black, grey); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(black, grey); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(black, grey); /* Standard syntax (must be last) */
+	
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+
+	/*shadow*/
+	box-shadow: 6px 6px 1px black;
+	-moz-box-shadow: 6px 6px 1px black;
+	-webkit-box-shadow: 6px 6px 1px black;
+}
+#divContent img{
+	float: left;
+	border: 2px double #f3ecec;
+	padding: 16px;
+	margin: 0.7em;
+
+	background: grey; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(black, grey); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(black, grey); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(black, grey); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(black, grey); /* Standard syntax (must be last) */
+	
+	/*border radius*/
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+#divContent h5{
+	color: whitesmoke;
+	padding: 0.8em 0 0 0;
+	font-size: 25px;
+}
+#divContent p{
+	font-size: 0.9em;
+	color: whitesmoke;
+	padding: 0.8em;
+	line-height: 1.5em;
+}
+#divFooter{
+	background: #f3ecec;
+	height: 10px;
+	width: 700px;
+	border-bottom: 2px solid #f3ecec;
+}
+
+
+
+
