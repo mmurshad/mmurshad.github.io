@@ -2,8 +2,15 @@
 	margin: 0;
 }
 body {
-    background: lightslategray;
-    color: aliceblue;
+    background-color:black;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+    color: #F2EEB3;
 }
 div#container {
     width: 1000px;
@@ -11,24 +18,22 @@ div#container {
 }
 div#header {
     width: 980px;
-    border: 10px;
     margin: 10px auto;
-    border-style: ridge;
     height: 120px;
 }
 div#header img {
     display: inline-block;
     vertical-align: middle;
     width: 300px;
-    margin: auto;
+    margin-left: 30px;
 }
 div#button {
-    margin-top: 30px;
-    margin-left: 30px;
+    vertical-align: middle;
+    margin-left: 80px;
     display: inline-block;
 }
 div#button ul li {
-    border: 6px double darkgray;
+    border: 4px inset #F2EEB3;
     list-style: none;
     display: inline-block;
     box-sizing: border-box;
@@ -36,42 +41,40 @@ div#button ul li {
     height: 50px;
     width: 110px;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 40px 0 40px 0;
     margin: 0 10px;
+    box-shadow: -15px 15px 50px #F2AE72;
 }
 div#button a {
     text-decoration: none;
     font-family: 'Pacifico', cursive;
     font-weight: bold;
-    color: aliceblue;
+    color: #F2EEB3;
     text-transform: uppercase;
 }
 div#header a:hover {
-    color: #cfc3d6;
+    color: #F2AE72;
+    font-family: Tahoma,Garamond, Sans-serif
 }
 div#left {
-	display: inline-block;
-	border: 10px;
-	border-style: ridge;
+	display: inline-block;	
 	padding: 10px;
 	width: 250px;
 	box-sizing: border-box;
 	height: 400px;
 	vertical-align: top;
-	text-shadow: -3px -2px brown;
+	text-shadow: -6px -7px 6px #260126, -12px -11px 4px #F2AE72, -7px -6px 4px #260126;
 }
 div#content {
-    display: inline-block;
-    border: 10px;
-    border-style: ridge;
+    display: inline-block;    
     width: 746px;
     box-sizing: border-box;
     vertical-align: top;
     padding: 5px 15px;
     height: 400px;
     overflow: auto;
-    letter-spacing: 5px;
-    line-height: 40px;
+    letter-spacing: 3px;
+    line-height: 30px;    
 }
 h3 {
     font-size: 2.2em;
@@ -80,31 +83,30 @@ h3 {
     font-weight: 900;
     margin-top: 10px;
     margin-bottom: 15px;
-    text-shadow: -3px -2px brown;
+    text-shadow: -5px -9px 5px #260126;
 }
 p {
     font-size: 1em;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Convergence', sans-serif;
 }
 div#mini {
     margin-left: 35px;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 10px;
     width: 1000px;
     text-align: center;
 }
 .mb {
     display: inline-block;
-    border: 10px ridge;
+    border: 5px inset #F2EEB3;
     vertical-align: middle;
     width: 100px;
-    height: 50px;
+    height: 40px;
     margin-right: 90px;
     position: relative;
-    border-radius: 30px 0;
-    border-color: silver;
-    border-width: 10px;
-    background: black;
+    border-radius: 30px 0;    
+    background: #F2AE72;
+    box-shadow: -5px 5px 15px;
 }
 .mb #a {
     height: 10px;
@@ -113,10 +115,11 @@ div#mini {
     border-style: outset;
     display: inline-block;
     position: absolute;
-    top: -12px;
-    right: -12px;
-    background: silver;
-    border-color: silver;
+    top: -13px;
+    right: -13px;
+    background: #F2AE72;
+    border-color: #F2EEB3;
+    border-radius: 15px;
 }
 .mb #b {
     height: 10px;
@@ -125,15 +128,16 @@ div#mini {
     border-style: outset;
     display: inline-block;
     position: absolute;
-    bottom: -12px;
-    left: -12px;
-    background: silver;
-    border-color: silver;
+    bottom: -13px;
+    left: -13px;
+    background: #F2AE72;
+    border-color: #F2EEB3;
+    border-radius: 15px;
 }
 div#left a {
     text-decoration: none;
-    color: aliceblue;
-    font-size: 30px;
+    color: #F2EEB3;
+    font-size: 1.5em;
     font-family: 'Pacifico', cursive;
 }
 div#left ul li {
@@ -142,14 +146,93 @@ div#left ul li {
     padding-bottom: 12px;
 }
 div#left a:hover {
-    background: #cea05a;
+   color: salmon;
+   font-family: Tahoma, Garamond, Sans-serif;
+   font-weight: 900;
 }
 div#footer {
-    width: 980px;
-    margin-top: 10px;
+    width: 990px;
+    margin-top: 35px;
     margin-bottom: 20px;
-    border: 10px;
-    border-style: ridge;
-    height: 20px;
-    background: silver;
+    border: 5px inset #F2EEB3;    
+    height: 10px;
+    background: #F2AE72;
+    box-shadow: -5px -5px 15px;
+}
+div#one {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 17px;
+    width: 544px;
+    text-align: center;
+    vertical-align: top;
+    height: 320px;
+    box-sizing: border-box;
+    font-family: 'Convergence', sans-serif;
+}
+div#two {
+    display: inline-block;
+    margin: 10px 0;
+    width: 450px;
+    height: 320px;
+    box-sizing: border-box;
+    font-family: 'Convergence', sans-serif;
+}
+div#radio {
+    display: block;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+div#drop {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+div#check {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+input[type="reset"]:hover {
+    cursor: pointer;
+    font-family: Tahoma, Verdana, Sans-serif;
+    font-weight: bold;
+    color: black;
+}
+input[type="submit"]:hover {
+    cursor: pointer;
+    font-family: Tahoma, Verdana, Sans-serif;
+    font-weight: bold;
+    color: black;
+}
+button:hover {
+    cursor: pointer;
+    font-family: Tahoma, Verdana, Sans-serif;
+    font-weight: bold;
+    color: black;
+}
+input[type="reset"] {
+    font-family: 'Convergence', sans-serif;
+    color: darkred;
+    font-weight: bold;
+}
+input[type="submit"] {
+    color: darkred;
+    font-family: 'Convergence', sans-serif;
+    font-weight: bold;
+}
+button {
+    color: darkred;
+    font-family: 'Convergence', sans-serif;
+    font-weight: bold;
+}
+div#one fieldset {
+    height: 345px;
+    box-sizing: border-box;
+    border: 2px solid #F2EEB3;
+}
+div#two fieldset {
+    height: 345px;
+    box-sizing: border-box;
+    border: 2px solid #F2EEB3;
 }
