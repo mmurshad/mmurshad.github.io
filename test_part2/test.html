@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Oct 18</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+		}
+		body {
+		    background: black;
+		}
+		div#container {
+		    width: 500px;
+		    margin: 60px auto;
+		    background: aliceblue;
+		}
+		h1 {
+		    font-family: Helvetica, Sans-serif;
+		    padding: 10px 0 0 20px;
+		    font-size: 2.6em;
+		}
+		h5 {
+		    font-family: Helvetica, Sans-serif;
+		    padding: 0 0 10px 20px;
+		    font-size: 20px;
+		}
+		form {
+		    margin-left: 20px;
+		}
+		input[type="password"] {
+		    padding: 10px;
+		    border-radius: 4px;
+		    font-size: 20px;
+
+		}
+		input[type="text"] {
+		    padding: 10px;
+		    border-radius: 4px;
+		    margin-bottom: 10px;
+		    font-size: 20px;
+		}
+		h4 {
+			font-family: Helvetica, Sans-serif;
+		    margin-left: 20px;
+		}
+		select {
+		    padding: 5px;
+		    margin: 4px 0;
+		}
+		h6 {
+		    display: inline-block;
+		    width: 120px;
+		    vertical-align: middle;
+		    padding: 0 10px;
+		}
+		a {
+		    color: cornflowerblue;
+		}
+		form[name="radio"] {
+		    font-size: 12px;
+		    font-family: Helvetica, Sans-serif;
+		    padding-bottom: 20px;
+		}
+		div#footer h6 {
+		    width: 400px;
+		    margin-left: 10px;
+		    margin-bottom: 10px;
+		    line-height: 12px;
+		    letter-spacing: 0.02em;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="header"><h1>Sign Up</h1><br><h5>It's free and always will be</h5>
+			<div id="form">
+				<form name="part1">									
+						<input type="text" name="firstname" placeholder="First Name" style="width: 200px">
+						<input type="text" name="lastname" placeholder="Last Name" style="width: 200px">							
+						<br>								
+						<input type="text" name="email" placeholder="Email or mobile number" style="width: 428px">							
+						<br>				
+						<input type="text" name="reenter" placeholder="Re-enter email or mobile number" style="width: 428px">
+						<br>		
+						<input type="password" name="psw" placeholder="Password" maxlength="10" style="width: 428px">
+						<br><br>										
+				</form>
+				<h4>Birthday</h4>
+				<form name="part2">
+					<select name="month">
+						<option value="none">Month</option>	
+						<option value="jan">Jan</option>
+						<option value="feb">Feb</option>
+						<option value="mar">Mar</option>
+						<option value="apr">Apr</option>
+						<option value="may">May</option>
+						<option value="jun">Jun</option>
+						<option value="jul">Jul</option>
+						<option value="aug">Aug</option>
+						<option value="sep">Sep</option>
+						<option value="oct">Oct</option>
+						<option value="nov">Nov</option>
+						<option value="dec">Dec</option>
+					</select>
+					<select name="day">
+						<option value="none">Day</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+					</select>
+					<select name="year">
+						<option value="none">Year</option>
+						<option value="81">1981</option>
+						<option value="80">1980</option>
+						<option value="79">1979</option>
+						<option value="78">1978</option>
+						<option value="77">1977</option>
+						<option value="76">1976</option>
+						<option value="75">1975</option>
+					</select>
+				<h6><a href="#index.html" target="blank">Why do I need to provide my birthday?</a></h6>
+				<br><br>					
+				</form>
+				<form name="radio">
+					<input type="radio" name="gender" value="female"> Female
+					<input type="radio" name="gender" value="male"> Male
+				</form>
+			</div>
+			<div id="footer">
+				<h6>By clicking Sign Up, you agree to our <a href="#term.html" target="blank">Term</a> and that your have read our<a href="#policy.html" target="blank">Data Policy, including our <a href="#cookie.html" target="blank">Cookie Use</a></a></h6>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
