@@ -5,7 +5,7 @@ body{
 	font-family: 'Lato', sans-serif;
 }
 section#header {
-    background-image: url(../images/homebg.png);
+    background-image: url(../homebg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -36,7 +36,7 @@ section#header {
     border: none;
 }
 #about .about {
-    background: url(../images/aboutbg.png);
+    background: url(../aboutbg.png);
     height: 450px;
     padding-top: 50px;
     background-position: center;
@@ -117,7 +117,7 @@ section#header {
     letter-spacing: 1px;
 }
 #skills {
-    background-image: url(../images/skillsbg.png);
+    background-image: url(../skillsbg.png);
     height: 498px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,42 +154,42 @@ section#header {
     width: 10%;
 }
 #boxes-pic .boxo {
-    background-image: url(../images/island1.jpg);
+    background-image: url(../island1.jpg);
     height: 25em;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #boxes-pic .boxt {
-    background-image: url(../images/island2.jpg);
+    background-image: url(../island2.jpg);
     height: 25em;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #boxes-pic .boxe {
-    background-image: url(../images/pinktrees.jpg);
+    background-image: url(../pinktrees.jpg);
     height: 25em;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #boxes-pic .boxf {
-    background-image: url(../images/river.jpg);
+    background-image: url(../river.jpg);
     height: 25em;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #boxes-pic .boxi {
-    background-image: url(../images/island3.jpg);
+    background-image: url(../island3.jpg);
     height: 25em;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #boxes-pic .boxs {
-    background-image: url(../images/green.jpg);
+    background-image: url(../green.jpg);
     height: 25em;
     background-position: center;
     background-repeat: no-repeat;
