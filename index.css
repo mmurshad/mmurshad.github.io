@@ -1,0 +1,200 @@
+*{
+    margin: 0 auto;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+section#header {
+    background-image: url(../images/homebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+#header .container {
+    padding: 200px 0;
+}
+#header h1 {
+    color: #fff;
+    font-size: 72px;
+    font-weight: 100;
+    display: inline-block;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+#header h5 {
+    color: #fff;
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+#header i {
+    color: #fff;
+    font-size: 30px;
+    border: none;
+}
+#about .about {
+    background: url(../images/aboutbg.png);
+    height: 450px;
+    padding-top: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about h3 {
+    font-weight: 100;
+    color: #fff;
+    padding-top: 80px;
+    font-size: 25px;
+}
+#about hr {
+    width: 8%;
+}
+#about h6 {
+    color: #fff;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 1.2em;
+}
+.row {
+    margin-right: 0;
+}
+#serv hr {
+    width: 10%;
+}
+.my-services,h3 {
+    font-family: 'Lato', Sans-serif;
+    text-transform: uppercase;
+    color: #873fb5;
+    font-weight: 100;}
+
+#services .my-services {
+    padding: 50px 0;
+}
+.container i {
+    font-size: 45px;
+    border-right: 1px solid #c1c1c1;
+    padding-right: 20px;
+    color: #c1c1c1;
+}
+.box h3 {
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.box h4 {
+    color: #874fb5;
+    text-transform: capitalize;
+}
+.box .service-header {
+    display: inline-block;
+    padding-left: 14px;
+    margin: -10px 0;
+}
+.container .box {
+    padding-bottom: 20px;
+}
+.service-header, p {
+    padding-top: 12px;
+}
+#skills h2 {
+    font-weight: 900;
+    font-size: 48px;
+    text-transform: capitalize;
+    color: wheat;
+}
+#skills h4 {
+    text-transform: capitalize;
+    color: wheat;
+}
+#skills p {
+    color: wheat;
+    padding-bottom: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+#skills {
+    background-image: url(../images/skillsbg.png);
+    height: 498px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.skill-left {
+    margin: 120px 0;
+}
+.skill-left .button1 {
+    margin-right: 20px;
+    text-transform: capitalize;
+    color: wheat;
+    text-decoration: none;
+}
+.skill-left .button1:hover {
+    color: blue;
+    text-transform: capitalize;
+}
+.skill-left .button2 {
+    margin-right: 20px;
+    text-transform: capitalize;
+    color: wheat;
+    text-decoration: none;
+}
+.skill-left .button2:hover {
+    color: blue;
+    text-transform: capitalize;
+}
+#porfolio {
+    margin: 30px 0;
+    font-weight: 100;
+}
+#porfolio hr {
+    width: 10%;
+}
+#boxes-pic .boxo {
+    background-image: url(../images/island1.jpg);
+    height: 25em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#boxes-pic .boxt {
+    background-image: url(../images/island2.jpg);
+    height: 25em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#boxes-pic .boxe {
+    background-image: url(../images/pinktrees.jpg);
+    height: 25em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#boxes-pic .boxf {
+    background-image: url(../images/river.jpg);
+    height: 25em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#boxes-pic .boxi {
+    background-image: url(../images/island3.jpg);
+    height: 25em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#boxes-pic .boxs {
+    background-image: url(../images/green.jpg);
+    height: 25em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#boxes-pic .row {
+    margin-bottom: 25px;
+}
