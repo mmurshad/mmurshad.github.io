@@ -248,12 +248,16 @@ h4.port {
     margin-bottom: 5.5em;
 }
 #portfolio #menu {
-    background: black;
-    color: grey;
+    background: #ebc985;
+    color: black;
     text-shadow: none;
     font-family: 'Titillium Web';
     text-transform: uppercase;
     font-weight: 600;
+    border-color: #ebc985;
+    font-size: 16px;
+    padding: 8px 14px;
+    margin: 0 2px;
 }
 #portfolio #menu:focus {
     background: white;
