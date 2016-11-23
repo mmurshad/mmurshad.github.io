@@ -1,1 +1,449 @@
 
+*{
+	margin: 0 auto;
+}
+body, html{
+	height: 100vh;
+}
+#logo {
+    background: #87509c;
+    height: auto;
+}
+.logo {
+    margin-top: 20px;
+}
+#logo h1 {
+    color: white;
+    font-family: 'Sonsie One', cursive;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 800;
+    display: inline-block;
+    padding: 0 5px 0 0;
+}
+.nav {
+    margin-top: 25px;
+}
+#logo .nav {
+    text-transform: uppercase;
+    font-family: 'Titillium Web';
+}
+#logo a {
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+.nav li a:hover {
+    background: #8354af;
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+.title {
+    margin-top: 8em;
+}
+#logo h2 {
+    color: white;
+    font-family: 'Titillium Web';
+    font-size: 32px;
+    font-weight: 700;
+}
+.work .btn {
+    text-transform: uppercase;
+    padding: 12px 60px;
+    font-weight: 600;
+    background: #eb7d4b;
+    box-shadow: 2px 2px 1px #eb7d4b;
+    font-family: 'Titillium Web';
+    margin-bottom: 7em;
+    margin-top: 2em;
+}
+#services {
+    background: #17c2a4;
+    height: auto;
+    color: white;
+    font-family: 'Titillium Web';
+}
+#services h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 2em;
+    font-family: 'Titillium Web';
+}
+.serv hr {
+    width: 10%;
+    border: 2px solid #4f8c86;
+}
+#services .serv {
+    margin-bottom: 4em;
+}
+#services h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Titillium Web';
+}
+.icons {
+    margin-bottom: 50px;
+}
+.icons .thumbnail {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+#flag, #gear {
+    color: white;
+    margin-top: 28px;
+}
+#crayon {
+    color: white;
+    margin-top: 18px;
+}
+#rocket {
+    color: white;
+    margin-top: 9px;
+}
+#crayon h6, #flag h6, #gear h6, #rocket h6 {
+    padding-top: 10px;
+}
+#team {
+    background: #e7f1f8;
+    color: #373763;
+    height: auto;
+    padding-top: 2.5em;
+    padding-bottom: 6em;
+}
+img#anne {
+    height: 12em;
+    width: 12em;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px, 2px 2px 3px yellow;
+}
+h2.team-head {
+    font-family: 'Titillium Web';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.5em;
+    margin-top: 32px;
+}
+h3.team-head2 {
+    font-family: 'Titillium Web';
+    font-weight: 600;
+    margin-bottom: 90px;
+}
+#team hr {
+    width: 10%;
+    border: 2px solid #b7c7cc;
+}
+h3.team-name {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2c2c61;
+    font-family: 'Titillium Web';
+    font-size: x-large;
+}
+h5.team-title {
+    color: #40e8d8;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    padding: 4px 0;
+}
+h5.team-jd {
+    font-family: 'Titillium Web';
+    padding-bottom: 10px;
+}
+#charts {
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+.c100.p90.big .fill {
+    border-color:#1cb5ce !important;
+}
+
+.c100.p90.big .bar {
+    border-color:#1cb5ce !important;
+}
+.c100.p90 span:hover {
+    color: #1cb5ce !important;
+    font-family: 'Titillium Web';
+}
+.c100.p75.big .fill{
+	border-color: #e2358d !important;
+}
+.c100.p75.big .bar{
+	border-color: #e2358d !important;
+}
+.c100.p75 span:hover{
+	color: #e2358d !important;
+	font-family: 'Titillium Web';
+}
+.c100.p70.big .bar{
+	border-color: #0dbf96 !important;
+}
+.c100.p70.big .fill{
+	border-color: #0dbf96 !important;
+}
+.c100.p70 span:hover{
+	color: #0dbf96 !important;
+	font-family: 'Titillium Web';
+}
+.c100.p85.big .bar {
+    border-color: #e68420 !important;
+}
+.c100.p85.big .fill {
+    border-color: #e68420 !important;
+}
+.c100.p85 span:hover{
+	color: #e68420 !important;
+	font-family: 'Titillium Web';
+}
+h1.title-chart {
+    color: #373763;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Titillium Web';
+    margin-top: 2em;
+}
+h4.jd-chart {
+    color: #373763;
+    font-family: 'Titillium Web';
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-bottom: 4em;
+}
+#charts hr {
+    border: 2px solid #b7c7cc;
+    width: 5%;
+}
+h4.cir {
+    margin-bottom: 4em;
+    font-family: 'Titillium Web';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+}
+.c100 {
+    font-family: 'Titillium Web';
+}
+#portfolio {
+    background-color: #ffdd99;
+    height: auto;
+    padding-bottom: 5.5em;
+}
+h1.port {
+    color: #393939;
+    font-family: 'Titillium Web';
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 2em;
+}
+h4.port {
+    font-family: 'Titillium Web';
+    font-weight: 600;
+    margin-bottom: 2.5em;
+}
+.port-top hr {
+    border: 2px solid #e5c37f;
+    width: 5%;
+}
+#portfolio .button {
+    margin-bottom: 5.5em;
+}
+#portfolio #menu {
+    background: #ebc985;
+    color: black;
+    text-shadow: none;
+    font-family: 'Titillium Web';
+    text-transform: uppercase;
+    font-weight: 600;
+    border-color: #ebc985;
+    font-size: 16px;
+    padding: 8px 14px;
+    margin: 0 2px;
+}
+#portfolio #menu:hover {
+    color: white;
+    font-weight: 600;
+}
+h4#desc {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Titillium Web';
+    margin-top: 1.4em;
+    margin-bottom: 2.5em;
+    font-size: 16px;
+}
+#portfolio #more {
+    text-transform: uppercase;
+    font-family: 'Titillium Web';
+    font-size: 16px;
+    color: white;
+    background: #17c2a4;
+    text-shadow: none;
+    font-weight: 600;
+    padding: 1.2em 5em;
+    box-shadow: 1px 1px 1px #17c2a4;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+}
+#feed {
+    height: auto;
+    background: #d74680;
+    overflow: hidden;
+    position: relative;
+}
+#feed .right2 {
+    margin-left: 30px;
+}
+h1.comm {
+    color: white;
+    font-family: 'Titillium Web';
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 3em;
+}
+#feed hr {
+    border: 2px solid #b93c6e;
+    width: 5%;
+}
+h4.comm2 {
+    color: white;
+    font-family: 'Titillium Web';
+    margin-bottom: 5em;
+}
+#feed .left1, .right1 {
+    height: 8em;
+    background: #787878;
+    width: 8em;
+    border-radius: 50%;
+}
+h4.lcomm2 {
+    font-family: 'Titillium Web';
+    color: #ece7e7;
+    margin-top: 1em;
+}
+h3.lcomm3 {
+    color: white;
+    font-family: 'Titillium Web';
+    text-transform: uppercase;
+    font-weight: 600;
+}
+h5.lcomm4 {
+    color: #f4b492;
+    font-family: 'Titillium Web';
+    font-weight: 600;
+}
+#feed .left {
+    margin-bottom: 7em;
+}
+#feed .bottom {
+    margin-bottom: 7em;
+}
+#mail{
+	background: #3c5499;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+}
+#mail .mail1 {
+    color: white;
+    font-family: 'Titillium Web';
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 3em;
+}
+#mail hr {
+    border: 2px solid #273a71;
+    width: 5%;
+}
+h4.mail2 {
+    color: white;
+    font-family: 'Titillium Web';
+    margin-bottom: 3.4em;
+}
+.name {
+    margin-bottom: 1em;
+}
+input#name {
+    background: #273a71;
+    padding: 20px 12px;
+    box-shadow: none;
+    border: none;
+    color: #30bae7;
+    font-size: 16px;
+}
+input#name:focus {
+    background: white;
+}
+.form-control::-webkit-input-placeholder {
+    color: white;
+}
+input#email{
+	background: #273a71;
+	padding: 20px 12px;
+	box-shadow: none;
+	border: none;
+	color: #30bae7;
+	font-size: 16px;
+}
+input#email:focus{
+	background: white;
+}
+input[placeholder], [placeholder], *[placeholder] {
+    font-family: 'Titillium Web';
+}
+textarea#message {
+    background: #273a71;
+    border: none;
+    height: 10em;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #30bae7;
+    font-size: 16px;
+}
+textarea#message:focus {
+	background: white;
+}
+#mail .comm {
+    margin-bottom: 3em;
+}
+#mail .env {
+    margin-bottom: 4em;
+}
+button#mess {
+    background: #30bae7;
+    text-transform: uppercase;
+    font-family: 'Titillium Web';
+    font-weight: 600;
+    padding: 16px 60px;
+    font-size: 14px;
+    box-shadow: 2px 2px #30bae7;
+    border: none;
+}
+#feed .left2 {
+    margin-left: 30px;
+}
+button#mess:hover {
+    background: #34abd2;
+}
+section#socmed {
+    background: #344b8e;
+    height: auto;
+}
+ul.navi {
+    list-style: none;
+    margin: 2.2em 0;
+}
+.navi li {
+    display: inline-block;
+}
+.navi a {
+    color: white;
+    font-family: 'Titillium Web';
+    text-decoration: none;
+    padding: 1em 1.5em;
+    font-weight: 600;
+    font-size: 17px;
+}
+.navi a:hover {
+    color: #30bae7;
+}
