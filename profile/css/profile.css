@@ -1,0 +1,44 @@
+*{
+	margin: 0 auto;
+}
+html, body{
+    height: 100%;
+}
+#top {
+    height: 100%;
+    color: white;
+    text-transform: uppercase;
+    background-image: url(../images/goldengate.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    text-align: center;
+}
+#top h1 {
+    font-family: jacques francois shadow;
+    font-size: 5em;
+    padding: 15px 0;
+}
+#top h4 {
+    font-family: fredoka one;
+    font-size: 1.5em;
+    padding-top: 10em;
+}
+h4#bottom {
+    padding-top: 0.6em;
+}
+#top hr {
+    width: 50%;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+#about {
+    height: 460px;
+    margin: 20px 0;
+}
+h3#abt {
+    font-family: fredoka one;
+    text-transform: capitalize;
+    color: #8d8c96;
+}
