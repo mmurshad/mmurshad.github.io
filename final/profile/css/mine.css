@@ -12,7 +12,7 @@ p.nav__label {
     font-size: 1.2em;
 }
 section.color-face {
-    background: url(profile/images/side.jpg);
+    background: url(../images/side.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
