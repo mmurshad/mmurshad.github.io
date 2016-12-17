@@ -12,7 +12,7 @@ p.nav__label {
     font-size: 1.2em;
 }
 section.color-face {
-    background: url(/profile/images/side.jpg);
+    background: url(profile/images/side.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,7 +39,7 @@ section.color-face {
 .box h4 {font-family: 'Text Me One',sans-serif;}
 
 section.colorbg {
-    background: url(/profile/images/bgblack.jpg) !important;
+    background: url(images/bgblack.jpg) !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
