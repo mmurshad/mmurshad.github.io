@@ -110,6 +110,9 @@ body, html{
     padding-top: 2.5em;
     padding-bottom: 6em;
 }
+.pics {
+    height: 35em;
+}
 img#anne {
     height: 12em;
     width: 12em;
