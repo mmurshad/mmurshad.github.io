@@ -125,7 +125,7 @@ section#header {
 }
 #skills {
     background-image: url(../images/skillsbg.png);
-    height: 498px;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
